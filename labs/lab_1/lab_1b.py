@@ -51,7 +51,7 @@ def request_sanitized_operation() -> str:
         operation = input("Enter the operation (add, subtract, multiply, divide): ").strip().lower()
         if operation in valid_operations:
             return operation
-        print("Invalid operation. Please try again.")
+        print("Invalid operation. Please choose from 'add', 'subtract', 'multiply', or 'divide'.")
 
 def main():
     
